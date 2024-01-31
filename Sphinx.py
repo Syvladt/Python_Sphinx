@@ -18,7 +18,7 @@ if input('Введите имя пользователя: ') == 'admin':
         elif action == '*':
             print (operand_1 * operand_2)
         elif action == '/':
-            if operand_2 > 0:
+            if operand_2 != 0:
                 print (operand_1 / operand_2)
             else:
                 print ('Вы не окончили среднюю школу.')
